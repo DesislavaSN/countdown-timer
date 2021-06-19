@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Timer">
+    <meta name="author" content="Desislava Nedeva">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- My CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font awsome icon-->
+    <script src="https://kit.fontawesome.com/52e276fb65.js" crossorigin="anonymous"></script>
+
+    <title>Timer2</title>
+  </head>
+  <body>
+
+    <div id="container">
+      <h2>CountDown Timer</h2>
+      <p id="hour-label" class="label">Hours</p>
+      <input id="hour" type="number" max="99" min="0" value="0" class="time">
+      <p id="minute-label" class="label">: Minutes</p>
+      <input id="minute" type="number" max="60" min="0" value="0" class="time">
+      <p id="sec-label" class="label">: Seconds</p>
+      <input id="second" type="number" max="60" min="0" value="0" class="time"> <br>
+
+      <div class="buttons">
+        <button id="start" type="button" name="button">Start</button>
+        <button id="reset" type="button" name="button">Reset</button>
+      </div>
+
+    </div>
+
+  <script src="timer.js" type="text/javascript">
+
+  </script>
+  </body>
+</html>
