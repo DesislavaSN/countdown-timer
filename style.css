@@ -2,8 +2,9 @@ html {
   background-color: #f7f3e9;
   height: 100%;
   padding-top: 50px;
-
 }
+
+button {cursor:pointer};
 
 #container {
   height: 240px;
